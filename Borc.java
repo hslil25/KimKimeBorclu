@@ -85,9 +85,9 @@ public class Borc {
         String cont;
         String ad;
         while (true) {
-            System.out.println("\nKişi eklemek istemiyorsanız hayır yazın aksi takdirde enter tuşuna basın.");
+            System.out.println("\nKişi eklemek istemiyorsanız hayir yazın aksi takdirde enter tuşuna basın.");
             cont = in.nextLine();
-            if (cont.equals("break")) {
+            if (cont.equals("hayir")) {
                 return;
             }
             System.out.println("Bu kişinin ismi nedir?");
@@ -112,9 +112,9 @@ public class Borc {
         double borc;
         boolean durum;
         while (true) {
-            System.out.println("\nBorç eklemek istemiyorsanız hayır yazın aksi takdirde enter tuşuna basın.");
+            System.out.println("\nBorç eklemek istemiyorsanız hayir yazın aksi takdirde enter tuşuna basın.");
             cont = in.nextLine();
-            if (cont.equals("break")) {
+            if (cont.equals("hayir")) {
                 return;
             }
             System.out.println("Borçlu kişinin ismi nedir?");
